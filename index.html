@@ -8,23 +8,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital,wght@1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/eff37a2898.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <script src="index.js"></script>
     <div id="container">
+    <div id="supcont">
+                <div id="btn-flow">
+                    <button id="mode-btn" onclick="modeBtn()"><i class='fas fa-thin fa-sun'></i></button>
+                </div>
+    </div>
         <div id="all-properties">
-            <h1 class="header">
+            
+            <h1 class="header" id="header">
                 Generate a 
                 <div id="random-text">
                     random password
                 </div>
             </h1>
+
             <p id="sub-text">Never use an insecure password again.</p>
             <button id="generator-btn" onclick="generatePassword()">Generate passwords</button>
             <input type="text" id="password-input">
             <div id="password">
-                <button title="copy password" onclick="copyFirstPassword()" id="copybtn1" class="password-1">
+                <button title="copy password" onclick="copyFirstPassword()" id="copybtn1" class="password-1" >
                 </button>
                 <button title="copy password" onclick="copySecondPassword()" id="copybtn2" class="password-1">
                 </button>

@@ -10,7 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     height: 550px;
     width: 550px;
-    background: #1F2937;
+    background: #ECFDF5;
     margin-left: auto;
     margin-right: auto;
     font-style: normal;
@@ -18,15 +18,49 @@ body{
     font-size: 20px;
     letter-spacing: -0.025em;
     padding: 1px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
 }
+
+#header{
+    color: #2B283A;
+}
+
 
 #all-properties{
     margin-left: 58px;
 }
 /*this is the start for the text description of the password generator*/
+#mode-btn{
+    height:32px;
+    border-radius: 50%;
+    width: 32px;
+    border:2px solid #10B981;
+    text-align: center;
+}
+#supcont{
+    margin: 40px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: end;
+}
+#btn-flow{
+    padding: 0;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-color: #1C1C1C;
+}
+
 .header{
     font-family: 'Karla', sans-serif;
-    margin-top: 114px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: fit-content;
     font-size: 40px;
@@ -44,7 +78,7 @@ body{
 
 #sub-text{
     margin-top: 0px;
-    color: #D5D4D8;
+    color: #6B7280;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -84,6 +118,7 @@ body{
 #password:focus{
     outline: none;
     border: none;
+    border-bottom:1px solid #4ADF86;
 }
 #password-input:focus{
     outline: none;
