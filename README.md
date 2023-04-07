@@ -1,0 +1,1 @@
+This is a password generator which combine 15 digits of characters and symbols.
