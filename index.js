@@ -56,12 +56,18 @@ function generatePassword(){
 
 
 }
+
+let copied = false
+function copy(){
+    document.querySelector("")
+}
 let text = ""
 function copyFirstPassword(){
-   text = document.getElementById("copybtn1")
+   text = document.getElementById("copybtn1").textContent
    navigator.clipboard.writeText(text)
+   console.log(navigator.clipboard.readText)
 }
 function copySecondPassword(){
-    text = document.getElementById("copybtn2")
+    text = document.getElementById("copybtn2").textContent
     navigator.clipboard.writeText(text)
 }
